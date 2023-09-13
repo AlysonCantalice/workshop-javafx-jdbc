@@ -54,7 +54,7 @@
             <Label fx:id="labelErrorBaseSalary" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <Label text="Department" GridPane.rowIndex="5" />
             <DatePicker fx:id="dpBirthDate" prefHeight="25.0" prefWidth="195.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <ComboBox prefHeight="25.0" prefWidth="195.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <ComboBox fx:id="comboBoxDepartment" prefHeight="25.0" prefWidth="195.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 			</children>
 		</GridPane>
 	</children>
